@@ -1,6 +1,5 @@
 # Use ARM Ubunutu base image
 FROM arm32v7/ubuntu
-COPY qemu-arm-static /usr/bin
 MAINTAINER Mike Howles <mike.howles@gmail.com>
 
 # Install dependencies
