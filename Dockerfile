@@ -1,6 +1,6 @@
-# Use ARM Ubunutu base image
 FROM arm32v7/ubuntu
-MAINTAINER Mike Howles <mike.howles@gmail.com>
+# Use ARM Ubunutu base image
+LABEL Mike Howles <mike.howles@gmail.com>
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
