@@ -37,6 +37,7 @@ RUN usermod -aG docker cloud9ide
 #Install NVM
 USER cloud9ide
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+USER cloud9ide
 COPY ./setupNode.sh ./setupNode.sh
 RUN ./setupNode.sh
 
