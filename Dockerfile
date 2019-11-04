@@ -1,5 +1,5 @@
 FROM arm32v7/ubuntu
-# Use ARM Ubunutu base image
+# Use ARM Ubuntu base image
 LABEL Mike Howles <mike.howles@gmail.com>
 
 # Install dependencies
