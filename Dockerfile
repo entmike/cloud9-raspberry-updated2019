@@ -1,7 +1,7 @@
 FROM arm32v7/ubuntu
 # Use ARM Ubuntu base image
 LABEL Mike Howles <mike.howles@gmail.com>
-COPY qemu-arm-static /usr/bin
+
 # Install dependencies
 RUN apt-get update && apt-get install -y \
     build-essential \

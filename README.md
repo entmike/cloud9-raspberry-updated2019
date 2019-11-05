@@ -48,17 +48,12 @@ Use It
 Navigate to your raspberry pi: `http://<your pi's address>`
 
 ## Building
-### Building ARM image on x86:
-
-I'm not sure how this works, but it does:
-
-```ssh
-docker run --rm --privileged multiarch/qemu-user-static:register --reset
-```
-
-Details here: https://github.com/multiarch/qemu-user-static
 
 ### Building Behind a Corporate Proxy
+
+```ssh
+docker build . -t my-cloud9-image
+```
 
 ```ssh
 docker build \
